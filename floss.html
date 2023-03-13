@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Floss Container</title>
+        <link rel="stylesheet" href="CSS/main.css">
+
+        <!-- Poppins from Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Star Rating code from: https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a class="logo">What We Carry</a>
+            <div class="group">
+                <ul class="navigation">
+                    <div class="header-index">
+                        <li><a href="index.html">The Full Catalogue</a></li>
+                    </div>
+                    <div class="header-participate">
+                        <li><a href="https://forms.gle/9Rnp2RfEsbAnVqVX7">Participate</a></li>
+                    </div>
+                </ul>
+        </header>
+        
+        <h1 style="text-align: center">Item 6 of 32</h1>
+        <p style="text-align: center">A collection of our favourite everyday items and what we like about them.</p>
+
+        <div id="container">
+            <header>
+                <a href="random-receipts.html">
+                    <button>← Item 5</button>
+                </a>
+
+                <a href="oil-blotting-sheet.html">
+                    <button>Item 7 →</button>
+                </a>
+            </header>
+            
+            <div class="item-grid">
+                <img class="item-image" src ="images/floss square.png" onmouseover="this.src='images/with colour square/floss colour.png'" onmouseout="this.src='images/floss square.png'"/>
+                <div class="item-informartion">
+                    <h1>Floss Container</h1>
+                    <p>Kelly, 19</p>
+                    <h1></h1>
+                    <span class="floss-tag">Teeth</span>
+                    <span class="floss-tag">Green</span>
+                    <span class="floss-tag">Plastic</span>
+                    <h1></h1>
+                    <hr class="solid">
+                    <h3>DESCRIPTION</h3>
+                    <p>
+                        Everyone can benefit from carrying around some floss. You never know when you might need it.
+                    </p>
+                </div>
+            </div>
+
+            <div id="item-grid-details">
+                    <h3>SENTIMENTALS</h3>
+                    <p>
+                        I started carrying around this floss container from a somewhat embarrassing experience I shared with my friends last summer. We had just finished eating takoyaki at Kensington Market, and I had some stuck on my two front teeth. Unfortunately, I didn't have any floss on me and struggled to get it out for what felt like the longest time. I avoided talking (and showing my teeth) until I finally got it off.
+                    </p>
+                    <p>
+                        I told my mom about this experience afterwards, and so she gave me this floss container. Now I carry it everywhere I go.
+                    </p>
+
+                    <h3>PRACTICALITY</h3>
+                    <p>
+                        My story above confirms its practicality. It's useful for quickly touching up.
+                    </p>
+
+                    <h3>OTHER</h3>
+                    <p>On a scale of 1-5, how proud are you to own this item?</p>
+                    <div class="proud-scale">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                    <p>Cost of item: Free</p>
+                    <br>
+            </div>
+
+            <hr class="solid">
+
+            <!-- // Similar Items -->
+            <h2>Similar Items</h2>
+
+            <div class="similar-grid">
+                <!-- Utensils -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/utensils square.png" onmouseover="this.src='images/with colour square/utensils colour.png'" onmouseout="this.src='images/utensils square.png'"/>
+                        <p></p>
+                        <a href="utensils.html"><button>utensils</button></a>
+                    </figure>
+                </div>
+
+                <!-- Farmacy Lip Balm -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/farmacy lip balm square.png" onmouseover="this.src='images/with colour square/farmacy lip balm colour.png'" onmouseout="this.src='images/farmacy lip balm square.png'"/>
+                        <p></p>
+                        <a href="farmacy-lip-balm.html"><button>farmacy lip balm</button></a>
+                    </figure>
+                </div>
+
+                <!-- Mirror -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/mirror square.png" onmouseover="this.src='images/with colour square/mirror colour.png'" onmouseout="this.src='images/mirror square.png'"/>
+                        <p></p>
+                        <a href="mirror.html"><button>persian mirror</button></a>
+                    </figure>
+                </div>
+
+                <!-- Retainer -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/retainer square.png" onmouseover="this.src='images/with colour square/retainer colour.png'" onmouseout="this.src='images/retainer square.png'"/>
+                        <p></p>
+                        <a href="retainer.html"><button>retainer</button></a>
+                    </figure>
+                </div>
+        </div>
+
+        <button id="myBtn">Back to Top</button>
+        <script src="JS/script.js"></script>
+    </body>
+</html>

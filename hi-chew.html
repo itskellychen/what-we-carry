@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grape Hi-Chew</title>
+        <link rel="stylesheet" href="CSS/main.css">
+
+        <!-- Poppins from Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Star Rating code from: https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a class="logo">What We Carry</a>
+            <div class="group">
+                <ul class="navigation">
+                    <div class="header-index">
+                        <li><a href="index.html">The Full Catalogue</a></li>
+                    </div>
+                    <div class="header-participate">
+                        <li><a href="https://forms.gle/9Rnp2RfEsbAnVqVX7">Participate</a></li>
+                    </div>
+                </ul>
+        </header>
+
+        <h1 style="text-align: center">Item 22 of 32</h1>
+        <p style="text-align: center">A collection of our favourite everyday items and what we like about them.</p>
+
+        <div id="container">
+            <header>
+                <a href="mirror.html">
+                    <button>← Item 21</button>
+                </a>
+
+                <a href="hand-wipes.html">
+                    <button>Item 23 →</button>
+                </a>
+            </header>
+
+            <div class="item-grid">
+                <img class="item-image" src ="images/hi chew square.png" onmouseover="this.src='images/with colour square/hi chew colour.png'" onmouseout="this.src='images/hi chew square.png'"/>
+                <div class="item-informartion">
+                    <h1>Hi-Chew Grape Flavour</h1>
+                    <p>Cindy</p>
+                    <h1></h1>
+                    <span class="hichew-tag">Purple</span>
+                    <span class="hichew-tag">Chewy</span>
+                    <span class="hichew-tag">Candy</span>
+                    <h1></h1>
+                    <hr class="solid">
+                    <h3>DESCRIPTION</h3>
+                    <p>
+                        Good for a small in-between break from studying or working. It's similar to gum so it lasts a while when chewing it during studying. Also an emergency snack.
+                    </p>
+                </div>
+            </div>
+
+            <div id="item-grid-details">
+                <h3>SENTIMENTALS</h3>
+                <p>
+                    When I'm with my dad, he always asks if I have a piece of candy. As he says "my mouth is bored". So it's out of habit I carry some sort of candy, but I also like giving people food.
+                </p>
+
+                <h3>PRACTICALITY</h3>
+                <p>
+                    It's an item that is like I'm glad to have it in my bag because sometimes random cravings happen.
+                </p>
+
+                <h3>OTHER</h3>
+                <p>On a scale of 1-5, how proud are you to own this item?</p>
+                <div class="proud-scale">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p>Cost of item: $2. Relatively easy to find in stores that feature Asian snacks → <a href="https://www.countries.hi-chew.com/">Click me to purchase</a></p>
+                <p>Green apple is also a tasty flavour</p>
+                <br>
+            </div>
+
+            <hr class="solid">
+
+            <!-- // Similar Items -->
+            <h2>Similar Items</h2>
+
+            <div class="similar-grid">
+                <!-- White Rabbit Candy -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/white rabbit candy square.png" onmouseover="this.src='images/with colour square/white rabbit candy colour.png'" onmouseout="this.src='images/white rabbit candy square.png'"/>
+                        <p></p>
+                        <a href="white-rabbit-candy.html"><button>white rabbit candy</button></a>
+                    </figure>
+                </div>
+                
+                <!-- Glossier Lip Balm -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/glossier lip balm square.png" onmouseover="this.src='images/with colour square/glossier lip balm colour.png'" onmouseout="this.src='images/glossier lip balm square.png'"/>
+                        <p></p>
+                        <a href="glossier-lip-balm.html"><button>glossier lip balm</button></a>
+                    </figure>
+                </div>
+
+                <!-- Mirror -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/mirror square.png" onmouseover="this.src='images/with colour square/mirror colour.png'" onmouseout="this.src='images/mirror square.png'"/>
+                        <p></p>
+                        <a href="mirror.html"><button>persian mirror</button></a>
+                    </figure>
+                </div>
+
+                <!-- Soju Keychain -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/soju keychain square.png" onmouseover="this.src='images/with colour square/soju keychain colour.png'" onmouseout="this.src='images/soju keychain square.png'"/>
+                        <p></p>
+                        <a href="soju-keychain.html"><button>peach soju keychain</button></a>
+                    </figure>
+                </div>
+        </div>
+
+        <button id="myBtn">Back to Top</button>
+        <script src="JS/script.js"></script>
+    </body>
+</html>

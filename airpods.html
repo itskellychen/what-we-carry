@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AirPods</title>
+        <link rel="stylesheet" href="CSS/main.css">
+
+        <!-- Poppins from Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Star Rating code from: https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a class="logo">What We Carry</a>
+            <div class="group">
+                <ul class="navigation">
+                    <div class="header-index">
+                        <li><a href="index.html">The Full Catalogue</a></li>
+                    </div>
+                    <div class="header-participate">
+                        <li><a href="https://forms.gle/9Rnp2RfEsbAnVqVX7">Participate</a></li>
+                    </div>
+                </ul>
+        </header>
+
+        <h1 style="text-align: center">Item 30 of 32</h1>
+        <p style="text-align: center">A collection of our favourite everyday items and what we like about them.</p>
+
+        <div id="container">
+            <header>
+                <a href="airpods-pro.html">
+                    <button>← Item 29</button>
+                </a>
+
+                <a href="sunscreen.html">
+                    <button>Item 31 →</button>
+                </a>
+            </header>
+
+            <div class="item-grid">
+                <img class="item-image" src ="images/airpods square.png" onmouseover="this.src='images/with colour square/airpods colour.png'" onmouseout="this.src='images/airpods square.png'"/>
+                <div class="item-informartion">
+                    <h1>AirPods</h1>
+                    <p>Kelly, 19</p>
+                    <h1></h1>
+                    <span class="airpods-tag">Yellow</span>
+                    <span class="airpods-tag">Electronic</span>
+                    <span class="airpods-tag">Egg & Toast</span>
+                    <h1></h1>
+                    <hr class="solid">
+                    <h3>DESCRIPTION</h3>
+                    <p>
+                        If you ever stumble across me, there's a very good chance you'll see me wearing these AirPods. I have them on all day, whether listening to music, watching a YouTube video, or on a quick phone call.
+                    </p>
+                </div>
+            </div>
+
+            <div id="item-grid-details">
+                    <h3>SENTIMENTALS</h3>
+                    <p>
+                        I believe my sister got me these AirPods from Costco. At the time, I remember being amazed by the features, as I had previously used wired earbuds my entire life. It was a game-changer.
+                    </p>
+                    <p>
+                        Unfortunately, I forgot where I bought this case. However, I do remember it being a bit overpriced. But here I am, using it 24/7. So it's worth it.
+                    </p>
+
+                    <h3>PRACTICALITY</h3>
+                    <p>
+                        Hands down the most practical,  most-used, and loved "must-have" essential item of mine. Is it bold to say that I can't live without these?
+                    </p>
+
+                    <h3>OTHER</h3>
+                    <p>On a scale of 1-5, how proud are you to own this item?</p>
+                    <div class="proud-scale">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+
+                    <p>Cost of item: Around $150 → <a href="https://www.costco.ca/apple-airpods-2nd-generation-with-charging-case.product.100567903.html">Click me to purchase</a></p>
+                    <br>
+            </div>
+
+            <hr class="solid">
+
+            <!-- // Similar Items -->
+            <h2>Similar Items</h2>
+
+            <div class="similar-grid">
+                <!-- Soju Keychain -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/soju keychain square.png" onmouseover="this.src='images/with colour square/soju keychain colour.png'" onmouseout="this.src='images/soju keychain square.png'"/>
+                        <p></p>
+                        <a href="soju-keychain.html"><button>soju keychain</button></a>
+                    </figure>
+                </div>
+
+                <!-- Headphones -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/headphones square.png" onmouseover="this.src='images/with colour square/headphones colour.png'" onmouseout="this.src='images/headphones square.png'"/>
+                        <p></p>
+                        <a href="headphones.html"><button>beats headphones</button></a>
+                    </figure>
+                </div>
+
+                <!-- AirPods Pro -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/airpods pro square.png" onmouseover="this.src='images/with colour square/airpods pro colour.png'" onmouseout="this.src='images/airpods pro square.png'"/>
+                        <p></p>
+                        <a href="airpods-pro.html"><button>airpods pro</button></a>
+                    </figure>
+                </div>
+
+                <!-- Infinity Cube -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/infinity cube square.png" onmouseover="this.src='images/with colour square/infinity cube colour.png'" onmouseout="this.src='images/infinity cube square.png'"/>
+                        <p></p>
+                        <a href="infinity-cube.html"><button>infinty cube</button></a>
+                    </figure>
+                </div>
+        </div>
+
+        <button id="myBtn">Back to Top</button>
+        <script src="JS/script.js"></script>
+    </body>
+</html>

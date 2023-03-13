@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chewy Granola Bar</title>
+        <link rel="stylesheet" href="CSS/main.css">
+
+        <!-- Poppins from Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Star Rating code from: https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a class="logo">What We Carry</a>
+            <div class="group">
+                <ul class="navigation">
+                    <div class="header-index">
+                        <li><a href="index.html">The Full Catalogue</a></li>
+                    </div>
+                    <div class="header-participate">
+                        <li><a href="https://forms.gle/9Rnp2RfEsbAnVqVX7">Participate</a></li>
+                    </div>
+                </ul>
+        </header>
+        
+        <h1 style="text-align: center">Item 2 of 32</h1>
+        <p style="text-align: center">A collection of our favourite everyday items and what we like about them.</p>
+
+        <div id="container">
+            <header>
+                <a href="antibacterial-wipes.html">
+                    <button>← Item 1</button>
+                </a>
+
+                <a href="fragrance-mist.html">
+                    <button>Item 3 →</button>
+                </a>
+            </header>
+
+            <div class="item-grid">
+                <img class="item-image" src ="images/chewy bar square.png" onmouseover="this.src='images/with colour square/chewy bar colour.png'" onmouseout="this.src='images/chewy bar square.png'"/>
+                <div class="item-informartion">
+                    <h1>Chewy Garnola Bar</h1>
+                    <p>Delusha, 19</p>
+                    <h1></h1>
+                    <span class="chewy-tag">Yummy</span>
+                    <span class="chewy-tag">Useful</span>
+                    <span class="chewy-tag">Small</span>
+                    <h1></h1>
+                    <hr class="solid">
+                    <h3>DESCRIPTION</h3>
+                    <p>
+                        Whenever you're hungry, its the perfect snack for on the go.
+                    </p>
+                </div>
+            </div>
+
+            <div id="item-grid-details">
+                <h3>SENTIMENTALS</h3>
+                <p>
+                    Bought a huge box of them during the end of the COVID-19 pandemic.
+                </p>
+
+                <h3>PRACTICALITY</h3>
+                <p>
+                    I would not consider it too useful as it just stays in my backpack. 
+                </p>
+
+                <h3>OTHER</h3>
+                <p>On a scale of 1-5, how proud are you to own this item?</p>
+                <div class="proud-scale">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p>Cost of item: Other - came in a box</p>
+                <br>
+            </div>
+
+            <hr class="solid">
+
+            <!-- // Similar Items -->
+            <h2>Similar Items</h2>
+
+            <div class="similar-grid">
+                <!-- White Rabbit Candy -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/white rabbit candy square.png" onmouseover="this.src='images/with colour square/white rabbit candy colour.png'" onmouseout="this.src='images/white rabbit candy square.png'"/>
+                        <p></p>
+                        <a href="white-rabbit-candy.html"><button>white rabbit candy</button></a>
+                    </figure>
+                </div>
+                
+                <!-- Random Receipts -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/random receipts square.png" onmouseover="this.src='images/with colour square/random receipts colour.png'" onmouseout="this.src='images/random receipts square.png'"/>
+                        <p></p>
+                        <a href="random-receipts.html"><button>random receipts</button></a>
+                    </figure>
+                </div>
+
+                <!-- Grape Hi-Chew -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/hi chew square.png" onmouseover="this.src='images/with colour square/hi chew colour.png'" onmouseout="this.src='images/hi chew square.png'"/>
+                        <p></p>
+                        <a href="hi-chew.html"><button>grape hi-chew</button></a>
+                    </figure>
+                </div>
+
+                <!-- Soju Keychain -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/soju keychain square.png" onmouseover="this.src='images/with colour square/soju keychain colour.png'" onmouseout="this.src='images/soju keychain square.png'"/>
+                        <p></p>
+                        <a href="soju-keychain.html"><button>peach soju keychain</button></a>
+                    </figure>
+                </div>
+        </div>
+
+        <button id="myBtn">Back to Top</button>
+        <script src="JS/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hair Brush</title>
+        <link rel="stylesheet" href="CSS/main.css">
+
+        <!-- Poppins from Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Star Rating code from: https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a class="logo">What We Carry</a>
+            <div class="group">
+                <ul class="navigation">
+                    <div class="header-index">
+                        <li><a href="index.html">The Full Catalogue</a></li>
+                    </div>
+                    <div class="header-participate">
+                        <li><a href="https://forms.gle/9Rnp2RfEsbAnVqVX7">Participate</a></li>
+                    </div>
+                </ul>
+        </header>
+
+        <h1 style="text-align: center">Item 11 of 32</h1>
+        <p style="text-align: center">A collection of our favourite everyday items and what we like about them.</p>
+
+        <div id="container">
+            <header>
+                <a href="glossier-lip-balm.html">
+                    <button>← Item 10</button>
+                </a>
+
+                <a href="sketchbook.html">
+                    <button>Item 12 →</button>
+                </a>
+            </header>
+
+            <div class="item-grid">
+                <img class="item-image" src ="images/hair brush square.png" onmouseover="this.src='images/with colour square/hair brush colour.png'" onmouseout="this.src='images/hair brush square.png'"/>
+                <div class="item-informartion">
+                    <h1>Hair Brush</h1>
+                    <p>Kelly, 19</p>
+                    <h1></h1>
+                    <span class="hairbrush-tag">Blue</span>
+                    <span class="hairbrush-tag">Compact</span>
+                    <span class="hairbrush-tag">Tangle Teezer</span>
+                    <h1></h1>
+                    <hr class="solid">
+                    <h3>DESCRIPTION</h3>
+                    <p>
+                        An amazing, compact hair brush that not only looks great but works great too. Highly recommend getting this everyday carry!
+                    </p>
+                </div>
+            </div>
+
+            <div id="item-grid-details">
+                <h3>SENTIMENTALS</h3>
+                <p>
+                    My sister introduced me to these Tangle Teezer compact hairbrushes when she brought back home a cat-patterned one from a friend. I waited close to a year for a sale in order to buy one for myself. I'm very content to own one now :)
+                </p>
+
+                <h3>PRACTICALITY</h3>
+                <p>
+                    Hands down one of the best hairbrushes I've used! It does a perfect job brushing out any knots, and its bristles are gentle on the scalp too. It almost feels like a mini head massage every time I use it.
+                </p>
+
+                <h3>OTHER</h3>
+                <p>On a scale of 1-5, how proud are you to own this item?</p>
+                <div class="proud-scale">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p>Cost of item: Around $25 → <a href="https://well.ca/products/tangle-teezer-compact-styler_183786.html">Click me to purchase</a></p>
+                <br>
+            </div>
+
+            <hr class="solid">
+
+            <!-- // Similar Items -->
+            <h2>Similar Items</h2>
+
+            <div class="similar-grid">
+                <!-- Floss -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/floss square.png" onmouseover="this.src='images/with colour square/floss colour.png'" onmouseout="this.src='images/floss square.png'"/>
+                        <p></p>
+                        <a href="floss.html"><button>floss container</button></a>
+                    </figure>
+                </div>
+                
+                <!-- Glossier Lip Balm -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/glossier lip balm square.png" onmouseover="this.src='images/with colour square/glossier lip balm colour.png'" onmouseout="this.src='images/glossier lip balm square.png'"/>
+                        <p></p>
+                        <a href="glossier-lip-balm.html"><button>glossier lip balm</button></a>
+                    </figure>
+                </div>
+
+                <!-- Mirror -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/mirror square.png" onmouseover="this.src='images/with colour square/mirror colour.png'" onmouseout="this.src='images/mirror square.png'"/>
+                        <p></p>
+                        <a href="mirror.html"><button>persian mirror</button></a>
+                    </figure>
+                </div>
+
+                <!-- Sunscreen -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/sunscreen square.png" onmouseover="this.src='images/with colour square/sunscreen colour.png'" onmouseout="this.src='images/sunscreen square.png'"/>
+                        <p></p>
+                        <a href="sunscreen.html"><button>sunscreen</button></a>
+                    </figure>
+                </div>
+        </div>
+
+        <button id="myBtn">Back to Top</button>
+        <script src="JS/script.js"></script>
+    </body>
+</html>

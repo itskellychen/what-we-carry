@@ -1,0 +1,573 @@
+/* (1) Style consistent across the entire website */
+body {
+    background: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+#container {
+    width: 70%;
+    margin: auto;
+    /* font-size: medium; */
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 30px;
+}
+h2 {
+    font-weight: 400;
+}
+h3 {
+    font-weight: 400;
+    /* border: 1px solid black;
+    border-radius: 30px;
+    padding: 1em; */
+}
+p {
+    font-weight: 300;
+    line-height: 150%;
+}
+
+header {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: xx-large;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    padding-left: 30px;
+}
+.group {
+    display: flex;
+    align-items: center;   
+}
+header ul {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    padding-right: 30px;
+}
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: large; 
+    /* color: black;   */
+}
+.header-index:hover {
+    text-decoration: underline;
+    color: lightseagreen;
+}
+.header-participate:hover {
+    text-decoration: underline;
+    color: lightseagreen;
+}
+li {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    color: lightseagreen;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    border: none;
+    border: 1px solid black;
+    background: white;
+    border-radius: 30px;
+    padding: 1em;
+}
+button:hover {
+    text-decoration: underline;
+}
+
+#myBtn {
+    color: lightseagreen;
+    background: white;
+    border: 1.5px solid lightseagreen;
+    font-weight: 400;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    padding: 1em;
+    cursor: pointer;
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.products {
+    height: auto;
+    text-align: center;
+    clear: both;
+}
+
+img {
+    width: 100%;
+    padding-top: 5%;
+}
+
+/* (2) Style for full catalogue grid */
+.full-catalogue-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+/* (3) Style for individual item pages */
+.item-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5%;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+#item-grid-details {
+    width: 70%;
+    margin: auto;
+    font-size: medium;
+    justify-content: center;
+}
+.similar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Horizontal line */
+hr.solid {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.item-image {
+    width: 80%;
+    /* padding-top: 5%; */
+}
+
+.proud-scale {
+    font-size: x-large;
+}
+.checked {
+    color: orange;
+  }
+
+/* (4) Style for individual item tags, primarily colour */
+.antibacterial-tag {
+    font-weight: 700;
+    font-size: large;
+    color: darkseagreen;
+    background: white;
+    border: 1px solid darkseagreen;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.chewy-tag {
+    font-weight: 700;
+    font-size: large;
+    color: tan;
+    border: 1px solid tan;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.mist-tag {
+    font-weight: 700;
+    font-size: large;
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.whiterabbit-tag {
+    font-weight: 700;
+    font-size: large;
+    color: lightcoral;
+    border: 1px solid lightcoral;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.receipts-tag {
+    font-weight: 700;
+    font-size: large;
+    color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.floss-tag {
+    font-weight: 700;
+    font-size: large;
+    color: mediumaquamarine;
+    border: 1px solid mediumaquamarine;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.oilblotting-tag {
+    font-weight: 700;
+    font-size: large;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.bandaid-tag {
+    font-weight: 700;
+    font-size: large;
+    color: steelblue;
+    border: 1px solid steelblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.saje-tag {
+    font-weight: 700;
+    font-size: large;
+    color: rgb(55, 20, 6);
+    border: 1px solid rgb(55, 20, 6);
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.glossier-tag {
+    font-weight: 700;
+    font-size: large;
+    color: lightsteelblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.hairbrush-tag {
+    font-weight: 700;
+    font-size: large;
+    color: lightsteelblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.sketchbook-tag {
+    font-weight: 700;
+    font-size: large;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.utensils-tag {
+    font-weight: 700;
+    font-size: large;
+    color: palevioletred;
+    border: 1px solid palevioletred;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.snowman-tag {
+    font-weight: 700;
+    font-size: large;
+    color: coral;
+    border: 1px solid coral;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.farmacy-tag {
+    font-weight: 700;
+    font-size: large;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.sketchingmaterials-tag {
+    font-weight: 700;
+    font-size: large;
+    color: darkolivegreen;
+    border: 1px solid darkolivegreen;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.dongles-tag {
+    font-weight: 700;
+    font-size: large;
+    color: dimgray;
+    border: 1px solid dimgray;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.charger-tag {
+    font-weight: 700;
+    font-size: large;
+    color: midnightblue;
+    border: 1px solid midnightblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.headphones-tag {
+    font-weight: 700;
+    font-size: large;
+    color: crimson;
+    border: 1px solid crimson;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.baggu-tag {
+    font-weight: 700;
+    font-size: large;
+    color: palevioletred;
+    border: 1px solid palevioletred;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.mirror-tag {
+    font-weight: 700;
+    font-size: large;
+    color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.hichew-tag {
+    font-weight: 700;
+    font-size: large;
+    color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.handwipes-tag {
+    font-weight: 700;
+    font-size: large;
+    color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.ointment-tag {
+    font-weight: 700;
+    font-size: large;
+    color: firebrick;
+    border: 1px solid firebrick;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.retainer-tag {
+    font-weight: 700;
+    font-size: large;
+    color: navy;
+    border: 1px solid navy;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.handcream-tag {
+    font-weight: 700;
+    font-size: large;
+    color: olivedrab;
+    border: 1px solid olivedrab;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.pads-tag {
+    font-weight: 700;
+    font-size: large;
+    color: khaki;
+    border: 1px solid khaki;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.soju-tag {
+    font-weight: 700;
+    font-size: large;
+    color: darkseagreen;
+    border: 1px solid darkseagreen;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.airpodspro-tag {
+    font-weight: 700;
+    font-size: large;
+    color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.airpods-tag {
+    font-weight: 700;
+    font-size: large;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.sunscreen-tag {
+    font-weight: 700;
+    font-size: large;
+    color: midnightblue;
+    border: 1px solid midnightblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+.cube-tag {
+    font-weight: 700;
+    font-size: large;
+    color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+/* Process work: code from past iterations of the website, now inactive */
+/* header ul li {
+    list-style: none;
+} */
+/* header ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: black;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: right;
+} */
+/* header ul li a :hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+} */
+
+/* figcaption {
+    border: 1px solid black;
+    background: white;
+    border-radius: 30px;
+    padding: 1em;
+} */
+
+/* #baggu-body {
+    background: rgb(252, 240, 242);
+    border-radius: 30px;
+    padding: 3em;
+} */
+
+/* .home-carousel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 60%;
+    padding-left: 17%;
+} */
+
+/* Aligning text to image: https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
+/* div.test {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+} */
+
+/* .caption {
+    display: block;
+    font-weight: 300;
+    font-size: medium;
+} */
+
+/* .item {    
+    padding: 20px;
+	display:flex;
+} */
+/* .item-title {
+    width: 100%;
+    padding-right: 170px;
+    padding-bottom: 100px;
+} */
+
+/* .object-image {
+    width: 50%;
+    padding-right: 300px;
+    padding-bottom: 100px;
+} */
+/* .scroll-image {
+    width: 70%;
+    padding-left: 30px;
+} */
+
+/* .pic {
+    width: 150px;
+    height: auto;
+} */
+
+/* .filter-sidebar {
+    list-style: none;
+    padding-left: 5px;
+    color: rgb(63, 132, 211);
+} */
+
+/* figcaption {
+    font-weight: 300;
+    font-size: medium;
+} */
+
+/* .side-column {
+    max-height: 550px;
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    padding-right: 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.main-column {
+    width: 50%;
+    margin: auto;
+    font-size: medium;
+
+    padding-top: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+} */

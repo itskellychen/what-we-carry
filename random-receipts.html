@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Receipts</title>
+        <link rel="stylesheet" href="CSS/main.css">
+
+        <!-- Poppins from Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Star Rating code from: https://www.w3schools.com/howto/howto_css_star_rating.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a class="logo">What We Carry</a>
+            <div class="group">
+                <ul class="navigation">
+                    <div class="header-index">
+                        <li><a href="index.html">The Full Catalogue</a></li>
+                    </div>
+                    <div class="header-participate">
+                        <li><a href="https://forms.gle/9Rnp2RfEsbAnVqVX7">Participate</a></li>
+                    </div>
+                </ul>
+        </header>
+        
+        <h1 style="text-align: center">Item 5 of 32</h1>
+        <p style="text-align: center">A collection of our favourite everyday items and what we like about them.</p>
+
+        <div id="container">
+            <header>
+                <a href="white-rabbit-candy.html">
+                    <button>← Item 4</button>
+                </a>
+
+                <a href="floss.html">
+                    <button>Item 6 →</button>
+                </a>
+            </header>
+
+            <div class="item-grid">
+                <img class="item-image" src ="images/random receipts square.png" onmouseover="this.src='images/with colour square/random receipts colour.png'" onmouseout="this.src='images/random receipts square.png'"/>
+                <div class="item-informartion">
+                    <h1>Random Receipts</h1>
+                    <p>Kelly, 19</p>
+                    <h1></h1>
+                    <span class="receipts-tag">Paper</span>
+                    <span class="receipts-tag">Purchases</span>
+                    <span class="receipts-tag">Recycle</span>
+                    <h1></h1>
+                    <hr class="solid">
+                    <h3>DESCRIPTION</h3>
+                    <p>
+                        These random receipts are proof of my past expenses. Though a bit random, they're good to have around.
+                    </p>
+                </div>
+            </div>
+
+            <div id="item-grid-details">
+                    <h3>SENTIMENTALS</h3>
+                    <p>
+                        There's something great about getting handed a physical, tangible receipt after every purchase you make. Though I wouldn't consider it an "essential" carry, I still carry these random receipts wherever I go. I enjoy looking back on them every now and then.
+                    </p>
+
+                    <h3>PRACTICALITY</h3>
+                    <p>
+                        Want to return something and need to provide proof of purchase? Want to keep track of your spending habits? It turns out that having these random receipts around can be more practical than you think.
+                    </p>
+
+                    <h3>OTHER</h3>
+                    <p>On a scale of 1-5, how proud are you to own this item?</p>
+                    <div class="proud-scale">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                    <p>Cost of item: Free</p>
+                    <p>This is your sign to empty out your wallets if you've got any random receipts...</p>
+                    <br>
+            </div>
+
+            <hr class="solid">
+
+            <!-- // Recommended Items -->
+            <h2>Similar Items</h2>
+
+            <div class="similar-grid">
+                <!-- Anti-Bacterial Wipes -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/antibacterial wipes square.png" onmouseover="this.src='images/with colour square/antibacterial wipes colour.png'" onmouseout="this.src='images/antibacterial wipes square.png'"/>
+                        <p></p>
+                        <a href="antibacterial-wipes.html"><button>anti-bacterial wipes</button></a>
+                    </figure>
+                </div>
+
+                <!-- White Rabbit Candy -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/white rabbit candy square.png" onmouseover="this.src='images/with colour square/white rabbit candy colour.png'" onmouseout="this.src='images/white rabbit candy square.png'"/>
+                        <p></p>
+                        <a href="white-rabbit-candy.html"><button>white rabbit candy</button></a>
+                    </figure>
+                </div>
+                
+                <!-- Bandaid -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/bandaid square.png" onmouseover="this.src='images/with colour square/bandaid colour.png'" onmouseout="this.src='images/bandaid square.png'"/>
+                        <p></p>
+                        <a href="bandaid.html"><button>bandaid</button></a>
+                    </figure>
+                </div>
+
+                <!-- Oil Blotting Sheet -->
+                <div class="products">
+                    <figure>
+                        <img src ="images/oil blotting sheet square.png" onmouseover="this.src='images/with colour square/oil blotting sheet colour.png'" onmouseout="this.src='images/oil blotting sheet square.png'"/>
+                        <p></p>
+                        <a href="oil-blotting-sheet.html"><button>oil blotting sheet</button></a>
+                    </figure>
+                </div>
+        </div>
+
+        <button id="myBtn">Back to Top</button>
+        <script src="JS/script.js"></script>
+    </body>
+</html>
